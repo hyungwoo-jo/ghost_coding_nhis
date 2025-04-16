@@ -1,0 +1,231 @@
+=== bnc ===
+# A tibble: 6 × 10
+  RN_INDI STD_YYYY SEX   SGG   GAIBJA_TYPE CTRB_Q10 DSB_SVRT_CD DSB_TYPE_CD G1E_OBJ_YN SMPL_TYPE_CD
+    <dbl> <chr>    <chr> <chr> <chr>          <dbl> <chr>       <chr>       <chr>      <chr>       
+1    2270 2002     2     42110 2                  8 ""          ""          ""         1           
+2    2270 2003     2     41281 1                  5 ""          ""          ""         1           
+3    2270 2004     2     45111 1                  4 ""          ""          ""         1           
+4    2270 2005     2     45111 1                  6 ""          ""          ""         1           
+5    2270 2006     2     45111 1                  4 ""          ""          ""         1           
+6    2270 2007     2     45111 1                  5 ""          ""          ""         1           
+=== bnd ===
+# A tibble: 6 × 5
+  RN_INDI BTH_YYYY DTH_YYYYMM COD1  COD2 
+    <dbl> <chr>    <chr>      <chr> <chr>
+1  888234 1959     ""         ""    ""   
+2  572549 1971     ""         ""    ""   
+3  720544 1960     ""         ""    ""   
+4  964637 1960     ""         ""    ""   
+5  915731 1970     ""         ""    ""   
+6   84322 1962     ""         ""    ""   
+=== d20 ===
+# A tibble: 6 × 22
+  RN_INDI     RN_KEY RN_INST MDCARE_STRT_DT FORM_CD MCARE_SUBJ_CD SICK_SYM1 SICK_SYM2 HSPTZ_PATH_TYPE OFIJ_TYPE
+    <dbl>      <dbl>   <dbl> <chr>          <chr>   <chr>         <chr>     <chr>     <chr>           <chr>    
+1  124047    2.00e12   35961 20020806       05      53            K006      ""        ""              "0"      
+2   92198    2.00e12   49004 20020820       05      50            K053      ""        ""              "0"      
+3  603413    2.00e12   24906 20020107       05      53            K006      ""        ""              "0"      
+4  300860    2.00e12   57858 20020130       05      55            K011      ""        ""              ""       
+5  538038    2.00e12  137286 20020513       05      55            K021      ""        ""              "0"      
+6  381671    2.00e12  114994 20020413       05      55            K011      ""        ""              "0"      
+# ℹ 12 more variables: OPRTN_YN <chr>, MDCARE_DD_CNT <dbl>, VSHSP_DD_CNT <dbl>, TOT_PRSC_DD_CNT <dbl>,
+#   MCARE_RSLT_TYPE <chr>, FST_HSPTZ_DT <chr>, EDC_ADD_RT <dbl>, SPCF_SYM_TYPE <chr>, ED_RC_TOT_AMT <dbl>,
+#   EDC_SBA <dbl>, EDC_INSUR_BRDN_AMT <dbl>, STD_YYYY <chr>
+=== d30 ===
+# A tibble: 6 × 17
+  RN_INDI        RN_KEY MDCARE_STRT_DT FORM_CD MCARE_DESC_LN_NO CLA_CD ITEM_CD CLSF_PTTN_CD MCARE_DIV_CD  UPRC
+    <dbl>         <dbl> <chr>          <chr>   <chr>            <chr>  <chr>   <chr>        <chr>        <dbl>
+1  970799 2002020598226 20020222       05      3                05     01      1            L0905400      4580
+2  970799 2002020598226 20020222       05      1                01     01      1            AA100         9200
+3  470921 2002020066261 20020206       05      4                04     01      1            KK010          810
+4  819784 2002090171182 20020923       05      1                01     01      1            AA100         8930
+5  487160 2002090728137 20020923       05      1                01     01      1            AA100         8930
+6  543044 2002080387158 20020819       05      1                01     01      1            AA100         8930
+# ℹ 7 more variables: DD1_MQTY_FREQ <dbl>, TOT_MCNT <dbl>, AMT <dbl>, TIME1_MDCT_CPCT <dbl>, MDCN_UD <dbl>,
+#   MCEXP_TYPE_CD <chr>, EFMDC_CLSF_NO <chr>
+=== d40 ===
+# A tibble: 6 × 8
+  RN_INDI        RN_KEY MDCARE_STRT_DT FORM_CD MCEX_SICK_SYM DETAIL_TMSG_SUBJ_CD SICK_CLSF_TYPE STD_YYYY
+    <dbl>         <dbl> <chr>          <chr>   <chr>         <chr>               <chr>          <chr>   
+1  267185 2002120151985 20021202       05      K040          ""                  ""             2002    
+2  112523 2002121022009 20021202       05      K053          ""                  ""             2002    
+3  742146 2002120313134 20021202       05      K006          ""                  ""             2002    
+4  985608 2002120443170 20021202       05      K011          ""                  ""             2002    
+5  204278 2002090626511 20020902       05      K040          ""                  ""             2002    
+6  350829 2002090571808 20020902       05      K006          ""                  ""             2002    
+=== d60 ===
+# A tibble: 6 × 13
+  RN_INDI        RN_KEY MDCARE_STRT_DT FORM_CD MCARE_DESC_LN_NO CLSF_PTTN_CD MPRSC_TIME1_TUYAK_CPCT
+    <dbl>         <dbl> <chr>          <chr>   <chr>            <chr>                         <dbl>
+1  716799 2002030240663 20020302       05      2                3                                 1
+2  750632 2002100332126 20021002       05      2                3                                 1
+3  478840 2002080156069 20020808       05      2                3                                 1
+4   16430 2002111113312 20021102       05      2                3                                 1
+5   23682 2002040614505 20020410       05      2                3                                 1
+6  698594 2002040226363 20020424       05      2                3                                 1
+# ℹ 6 more variables: MPRSC_DD1_TUYAK_CPCT <dbl>, TOT_MCNT <dbl>, UPRC <dbl>, AMT <dbl>, GNL_NM_CD <chr>,
+#   EFMDC_CLSF_NO <chr>
+=== g1e_0208 ===
+# A tibble: 6 × 51
+  EXMD_BZ_YYYY RN_INDI HME_YYYYMM Q_PHX1_DZ_V0208 Q_PHX1_YR Q_PHX1_CR Q_PHX2_DZ_V0208 Q_PHX2_YR Q_PHX2_CR
+  <chr>          <dbl> <chr>                <dbl>     <dbl>     <dbl>           <dbl>     <dbl>     <dbl>
+1 2002          572493 200211                   0        NA        NA               0        NA        NA
+2 2002          874800 200207                   0        NA        NA               0        NA        NA
+3 2002           88450 200207                   0        NA        NA               0        NA        NA
+4 2002           56993 200212                   0        NA        NA               0        NA        NA
+5 2002          591264 200210                   0        NA        NA               0        NA        NA
+6 2002          808467 200211                   0        NA        NA               0        NA        NA
+# ℹ 42 more variables: Q_PHX3_DZ_V0208 <dbl>, Q_PHX3_YR <dbl>, Q_PHX3_CR <dbl>, Q_FHX_LVDZ <dbl>,
+#   Q_FHX_HTN <dbl>, Q_FHX_STK <dbl>, Q_FHX_HTDZ <dbl>, Q_FHX_DM <dbl>, Q_FHX_CC <dbl>, Q_AWR_YN <dbl>,
+#   Q_AWR_DZ <chr>, Q_NTR_PRF <dbl>, Q_DRK_FRQ_V0108 <dbl>, Q_DRK_AMT_V0108 <dbl>, Q_SMK_YN <dbl>,
+#   Q_SMK_NOW_AMT_V0108 <dbl>, Q_SMK_DRT <dbl>, Q_SMK_STRT_YR <dbl>, Q_SMK_STOP_YR <dbl>, Q_PA_FRQ <dbl>,
+#   G1E_HGHT <dbl>, G1E_WGHT <dbl>, G1E_BMI <dbl>, G1E_WSTC <dbl>, G1E_VA_LT <dbl>, G1E_VA_RT <dbl>,
+#   G1E_HA_LT <dbl>, G1E_HA_RT <dbl>, G1E_BP_SYS <dbl>, G1E_BP_DIA <dbl>, G1E_URN_GLU <dbl>,
+#   G1E_URN_PROT <dbl>, G1E_URN_OCC_BLD <dbl>, G1E_URN_PH <dbl>, G1E_HGB <dbl>, G1E_FBS <dbl>, …
+=== g1e_0915 ===
+# A tibble: 6 × 57
+  EXMD_BZ_YYYY RN_INDI HME_YYYYMM Q_PHX_DX_STK Q_PHX_DX_HTDZ Q_PHX_DX_HTN Q_PHX_DX_DM Q_PHX_DX_DLD Q_PHX_DX_PTB
+  <chr>          <dbl> <chr>             <dbl>         <dbl>        <dbl>       <dbl>        <dbl>        <dbl>
+1 2009          562083 200909                0             0            1           0            0           NA
+2 2009          334536 200911                0             0            0           0            0           NA
+3 2009          911867 200903                0             0            0           0            0           NA
+4 2009          183321 200908               NA            NA           NA          NA           NA           NA
+5 2009          942671 200909               NA            NA           NA          NA           NA           NA
+6 2009          979358 200912               NA            NA           NA          NA           NA           NA
+# ℹ 48 more variables: Q_PHX_DX_ETC <dbl>, Q_PHX_TX_STK <dbl>, Q_PHX_TX_HTDZ <dbl>, Q_PHX_TX_HTN <dbl>,
+#   Q_PHX_TX_DM <dbl>, Q_PHX_TX_DLD <dbl>, Q_PHX_TX_PTB <dbl>, Q_PHX_TX_ETC <dbl>, Q_FHX_STK <dbl>,
+#   Q_FHX_HTDZ <dbl>, Q_FHX_HTN <dbl>, Q_FHX_DM <dbl>, Q_FHX_ETC <dbl>, Q_HBV_AG <dbl>, Q_SMK_YN <dbl>,
+#   Q_SMK_PRE_DRT <dbl>, Q_SMK_PRE_AMT <dbl>, Q_SMK_NOW_DRT <dbl>, Q_SMK_NOW_AMT_V09N <dbl>,
+#   Q_DRK_FRQ_V09N <dbl>, Q_DRK_AMT_V09N <dbl>, Q_PA_VD <dbl>, Q_PA_MD <dbl>, Q_PA_WALK <dbl>, G1E_HGHT <dbl>,
+#   G1E_WGHT <dbl>, G1E_WSTC <dbl>, G1E_BMI <dbl>, G1E_VA_LT <dbl>, G1E_VA_RT <dbl>, G1E_HA_LT <dbl>,
+#   G1E_HA_RT <dbl>, G1E_BP_SYS <dbl>, G1E_BP_DIA <dbl>, G1E_URN_PROT <dbl>, G1E_HGB <dbl>, G1E_FBS <dbl>, …
+=== inst ===
+# A tibble: 6 × 10
+  STD_YYYY RN_INST INST_CLSFC_CD SGG_INST DISP_SUBJ_TYPE CNT_DR_TOT CNT_NRS_TOT CNT_BED_INP CNT_BED_OP
+  <chr>      <dbl> <chr>         <chr>    <chr>               <dbl>       <dbl>       <dbl>      <dbl>
+1 2015      108453 5             11680    ""                      1           0           0          0
+2 2015      100994 93            11680    ""                      1           0           0          0
+3 2015       76746 93            11680    ""                      1           0           0          0
+4 2015      102889 5             11650    ""                      1           0           0          0
+5 2015       78680 5             11680    ""                      1           0           0          0
+6 2015       76887 93            11680    ""                      1           0           0          0
+# ℹ 1 more variable: CNT_BED_ER <dbl>
+=== k20 ===
+# A tibble: 6 × 22
+  RN_INDI     RN_KEY RN_INST MDCARE_STRT_DT FORM_CD MCARE_SUBJ_CD SICK_SYM1 SICK_SYM2 HSPTZ_PATH_TYPE OFIJ_TYPE
+    <dbl>      <dbl>   <dbl> <chr>          <chr>   <chr>         <chr>     <chr>     <chr>           <chr>    
+1  964637    2.00e12  111917 20021216       13      85            J012      ""        ""              0        
+2  790184    2.00e12   82602 20020617       13      85            J1011     ""        ""              0        
+3  793962    2.00e12   70527 20020429       13      85            J1011     ""        ""              0        
+4   26776    2.00e12   29625 20020730       13      85            J264      ""        ""              0        
+5  238542    2.00e12   32606 20020507       13      85            J264      ""        ""              0        
+6  641955    2.00e12   80174 20020815       13      85            J264      ""        ""              0        
+# ℹ 12 more variables: OPRTN_YN <chr>, MDCARE_DD_CNT <dbl>, VSHSP_DD_CNT <dbl>, TOT_PRSC_DD_CNT <dbl>,
+#   MCARE_RSLT_TYPE <chr>, FST_HSPTZ_DT <chr>, EDC_ADD_RT <dbl>, SPCF_SYM_TYPE <chr>, ED_RC_TOT_AMT <dbl>,
+#   EDC_SBA <dbl>, EDC_INSUR_BRDN_AMT <dbl>, STD_YYYY <chr>
+=== k30 ===
+# A tibble: 6 × 17
+  RN_INDI        RN_KEY MDCARE_STRT_DT FORM_CD MCARE_DESC_LN_NO CLA_CD ITEM_CD CLSF_PTTN_CD MCARE_DIV_CD  UPRC
+    <dbl>         <dbl> <chr>          <chr>   <chr>            <chr>  <chr>   <chr>        <chr>        <dbl>
+1  588516 2002090855955 20020923       13      1                01     01      A            10100         8160
+2  322147 2002060015906 20020603       13      1                01     01      A            10100         8160
+3    9866 2002060370598 20020603       13      1                01     01      A            10100         8160
+4   46952 2002060483959 20020617       13      1                01     01      A            10100         8160
+5  790184 2002060714135 20020617       13      1                01     01      A            10100         8160
+6  676313 2002050882049 20020513       13      1                01     01      A            10100         8160
+# ℹ 7 more variables: DD1_MQTY_FREQ <dbl>, TOT_MCNT <dbl>, AMT <dbl>, TIME1_MDCT_CPCT <dbl>, MDCN_UD <dbl>,
+#   MCEXP_TYPE_CD <chr>, EFMDC_CLSF_NO <chr>
+=== k40 ===
+# A tibble: 6 × 8
+  RN_INDI        RN_KEY MDCARE_STRT_DT FORM_CD MCEX_SICK_SYM DETAIL_TMSG_SUBJ_CD SICK_CLSF_TYPE STD_YYYY
+    <dbl>         <dbl> <chr>          <chr>   <chr>         <chr>               <chr>          <chr>   
+1  613708 2002120401288 20021202       13      J_            ""                  ""             2002    
+2  669498 2002120452928 20021202       13      J102          ""                  ""             2002    
+3  688302 2002120550492 20021202       13      J170          ""                  ""             2002    
+4  941551 2002040184415 20020401       13      J_            ""                  ""             2002    
+5  483473 2002040598176 20020401       13      J1011         ""                  ""             2002    
+6  995838 2002040226374 20020401       13      H1312         ""                  ""             2002    
+=== m20 ===
+# A tibble: 6 × 22
+  RN_INDI     RN_KEY RN_INST MDCARE_STRT_DT FORM_CD MCARE_SUBJ_CD SICK_SYM1 SICK_SYM2 HSPTZ_PATH_TYPE OFIJ_TYPE
+    <dbl>      <dbl>   <dbl> <chr>          <chr>   <chr>         <chr>     <chr>     <chr>           <chr>    
+1  746491    2.00e12   47036 20021016       03      14            L218      ""        ""              "0"      
+2  848340    2.00e12   47036 20020712       03      14            B351      ""        ""              "0"      
+3  992522    2.00e12   70468 20020923       03      10            N_        ""        ""              "0"      
+4  543044    2.00e12   22970 20020930       03      13            J304      ""        "32"            "0"      
+5  928716    2.00e12   37742 20020826       03      13            J311      ""        ""              "0"      
+6  633585    2.00e12   87180 20020528       03      15            L02       ""        ""              ""       
+# ℹ 12 more variables: OPRTN_YN <chr>, MDCARE_DD_CNT <dbl>, VSHSP_DD_CNT <dbl>, TOT_PRSC_DD_CNT <dbl>,
+#   MCARE_RSLT_TYPE <chr>, FST_HSPTZ_DT <chr>, EDC_ADD_RT <dbl>, SPCF_SYM_TYPE <chr>, ED_RC_TOT_AMT <dbl>,
+#   EDC_SBA <dbl>, EDC_INSUR_BRDN_AMT <dbl>, STD_YYYY <chr>
+=== m30 ===
+# A tibble: 6 × 17
+  RN_INDI        RN_KEY MDCARE_STRT_DT FORM_CD MCARE_DESC_LN_NO CLA_CD ITEM_CD CLSF_PTTN_CD MCARE_DIV_CD  UPRC
+    <dbl>         <dbl> <chr>          <chr>   <chr>            <chr>  <chr>   <chr>        <chr>        <dbl>
+1  970799 2002020112761 20020225       03      5                09     01      1            B1010          940
+2  970799 2002020294438 20020227       02      58               09     01      1            B1010          940
+3  970799 2002070269429 20020716       03      4                09     01      1            C2210         1570
+4  970799 2002050339472 20020506       02      51               09     01      1            B1530         2210
+5  970799 2002060153898 20020612       03      3                09     01      1            E6541         4100
+6  970799 2002020294438 20020227       02      15               04     01      1            KK059          300
+# ℹ 7 more variables: DD1_MQTY_FREQ <dbl>, TOT_MCNT <dbl>, AMT <dbl>, TIME1_MDCT_CPCT <dbl>, MDCN_UD <dbl>,
+#   MCEXP_TYPE_CD <chr>, EFMDC_CLSF_NO <chr>
+=== m40 ===
+# A tibble: 6 × 8
+  RN_INDI        RN_KEY MDCARE_STRT_DT FORM_CD MCEX_SICK_SYM DETAIL_TMSG_SUBJ_CD SICK_CLSF_TYPE STD_YYYY
+    <dbl>         <dbl> <chr>          <chr>   <chr>         <chr>               <chr>          <chr>   
+1  596535 2002120187152 20021202       03      J209          ""                  ""             2002    
+2  615374 2002121012274 20021202       03      J209          ""                  ""             2002    
+3 1005547 2002120808216 20021202       03      J209          ""                  ""             2002    
+4  226594 2002120381612 20021202       03      J209          ""                  ""             2002    
+5  204930 2002120790182 20021202       03      J209          ""                  ""             2002    
+6  798943 2002040446183 20020401       03      J209          ""                  ""             2002    
+=== m60 ===
+# A tibble: 6 × 13
+  RN_INDI        RN_KEY MDCARE_STRT_DT FORM_CD MCARE_DESC_LN_NO CLSF_PTTN_CD MPRSC_TIME1_TUYAK_CPCT
+    <dbl>         <dbl> <chr>          <chr>   <chr>            <chr>                         <dbl>
+1  819784 2002120106915 20021202       03      1                3                                 1
+2  367481 2002090452180 20020917       03      1                3                                 1
+3  478840 2002090831290 20020909       03      1                3                                 1
+4  179714 2002110589613 20021126       03      1                3                                 1
+5  925523 2002070166181 20020704       03      1                3                                 1
+6  279031 2002050194781 20020514       03      1                3                                 1
+# ℹ 6 more variables: MPRSC_DD1_TUYAK_CPCT <dbl>, TOT_MCNT <dbl>, UPRC <dbl>, AMT <dbl>, GNL_NM_CD <chr>,
+#   EFMDC_CLSF_NO <chr>
+=== p20 ===
+# A tibble: 6 × 22
+  RN_INDI     RN_KEY RN_INST MDCARE_STRT_DT FORM_CD MCARE_SUBJ_CD SICK_SYM1 SICK_SYM2 HSPTZ_PATH_TYPE OFIJ_TYPE
+    <dbl>      <dbl>   <dbl> <chr>          <chr>   <chr>         <chr>     <chr>     <chr>           <chr>    
+1  889412    2.00e12   68482 20021202       21      00            ""        ""        ""              0        
+2  402974    2.00e12  125649 20021002       21      00            ""        ""        ""              0        
+3  473876    2.00e12   20690 20020425       21      00            ""        ""        ""              0        
+4  242976    2.00e12  103622 20021220       21      00            ""        ""        ""              0        
+5  473250    2.00e12   39835 20020827       21      00            ""        ""        ""              0        
+6  235220    2.00e12   74003 20020416       21      00            ""        ""        ""              0        
+# ℹ 12 more variables: OPRTN_YN <chr>, MDCARE_DD_CNT <dbl>, VSHSP_DD_CNT <dbl>, TOT_PRSC_DD_CNT <dbl>,
+#   MCARE_RSLT_TYPE <chr>, FST_HSPTZ_DT <chr>, EDC_ADD_RT <dbl>, SPCF_SYM_TYPE <chr>, ED_RC_TOT_AMT <dbl>,
+#   EDC_SBA <dbl>, EDC_INSUR_BRDN_AMT <dbl>, STD_YYYY <chr>
+=== p30_0208 ===
+# A tibble: 6 × 17
+  RN_INDI        RN_KEY MDCARE_STRT_DT FORM_CD MCARE_DESC_LN_NO CLA_CD ITEM_CD CLSF_PTTN_CD MCARE_DIV_CD  UPRC
+    <dbl>         <dbl> <chr>          <chr>   <chr>            <chr>  <chr>   <chr>        <chr>        <dbl>
+1  481042 2002120684238 20021202       21      3                02     01      1            Z3000          270
+2  970780 2002120967417 20021202       21      3                02     01      1            Z3000          270
+3  985608 2002120228333 20021202       21      3                02     01      1            Z3000          270
+4  889412 2002121023891 20021202       21      3                02     01      1            Z3000          270
+5   51443 2002120258849 20021202       21      3                02     01      1            Z3000          270
+6  226594 2002120681343 20021202       21      3                02     01      1            Z3000          270
+# ℹ 7 more variables: DD1_MQTY_FREQ <dbl>, TOT_MCNT <dbl>, AMT <dbl>, TIME1_MDCT_CPCT <dbl>, MDCN_UD <dbl>,
+#   MCEXP_TYPE_CD <chr>, EFMDC_CLSF_NO <chr>
+=== p30_0915 ===
+# A tibble: 6 × 17
+  RN_INDI        RN_KEY MDCARE_STRT_DT FORM_CD MCARE_DESC_LN_NO CLA_CD ITEM_CD CLSF_PTTN_CD MCARE_DIV_CD  UPRC
+    <dbl>         <dbl> <chr>          <chr>   <chr>            <chr>  <chr>   <chr>        <chr>        <dbl>
+1   84427 2009101333250 20091005       21      5                02     01      1            Z1000          600
+2  227244 2009100912952 20091005       21      5                02     01      1            Z1000          600
+3  798943 2009102146746 20091005       21      5                02     01      1            Z1000          600
+4  824794 2009100865652 20091005       21      5                02     01      1            Z1000          600
+5  570104 2009102314140 20091005       21      5                02     01      1            Z1000          600
+6  661154 2009101875628 20091005       21      5                02     01      1            Z1000          600
+# ℹ 7 more variables: DD1_MQTY_FREQ <dbl>, TOT_MCNT <dbl>, AMT <dbl>, TIME1_MDCT_CPCT <dbl>, MDCN_UD <dbl>,
+#   MCEXP_TYPE_CD <chr>, EFMDC_CLSF_NO <chr>
